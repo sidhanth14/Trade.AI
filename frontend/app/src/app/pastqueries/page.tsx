@@ -24,7 +24,7 @@ export default function PastQueriesPage() {
       setLoading(false);
       return;
     }
-    fetch('http://localhost:8000/queries/', {
+    fetch('https://tradeai-backend-920966971294.europe-west2.run.app/queries/', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

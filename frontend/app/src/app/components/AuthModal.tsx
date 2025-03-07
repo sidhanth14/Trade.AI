@@ -189,7 +189,7 @@ export default function AuthModal({ isOpen, onClose, onSuccessfulAuth }: AuthMod
     }
 
     try {
-      const res = await fetch(`http://localhost:8000${endpoint}`, {
+      const res = await fetch(`https://tradeai-backend-920966971294.europe-west2.run.app${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

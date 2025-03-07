@@ -91,7 +91,7 @@ export default function QueryForm() {
     }
 
     try {
-      const res = await fetch('http://localhost:8000/api/ai', {
+      const res = await fetch('https://tradeai-backend-920966971294.europe-west2.run.app/api/ai', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
